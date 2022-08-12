@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+nav{
+    height: 40px;
+    background-color: rgb(5, 5, 210);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.nav-text a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+main{
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    background-color: rgb(246, 77, 30);
+    text-align: center;
+    color: rgb(230, 16, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: cadetblue;
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+main h1{
+    font-size: 50px;
+}
+main h2{
+    font-size: 40px;
+}
+main button{
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    border: 2px solid lightsalmon;
+}
+.portfolio-container{
+    justify-content: space-around;
+    display: flex;
+    background-color: aquamarine;
+    margin: 0px 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.header-text{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.service-container .box{
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 0 20%;
+    border-radius: 20px;
+}
+.service-container .box:hover{
+    background-color: darkcyan;
+    transition: background-color .5s linear .2s;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+.contact-field{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.contact-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid lightgreen;
+    background-color: cadetblue;
+}
